@@ -1,0 +1,200 @@
+/* General Styles */
+body {
+    background-color: #FBF8EF;
+    color: #075f63;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #075f63 !important;
+}
+
+nav ul {
+    display: flex; 
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    white-space: nowrap; 
+}
+
+.navbar-brand span {
+   
+    font-weight: bold;
+    color: #FBF8EF;
+}
+
+.navbar-nav .nav-link {
+    
+    color: #FBF8EF !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd !important;
+}
+
+/* Carousel  */
+.carousel {
+    height: 50vh;
+}
+.carousel .carousel-inner {
+    height: 100%;
+}
+.carousel .carousel-item {
+    margin-top:.35%;
+    height: 100%;
+}
+.carousel-img {
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+/* Our Services Section */
+.services-section {
+    background-color: #FBF8EF;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.services-section h2 {
+    margin-bottom: 30px;
+    color: #075f63;
+    text-align: center;
+}
+
+/* Service Cards */
+.service-card {
+    background-color: #075f63;
+    color: #FBF8EF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(7, 95, 99, 0.3);
+}
+
+/* Products Section */
+.products-section {
+    background-color: #FBF8EF;
+    padding: 30px 0;
+}
+
+.product-card {
+    background-color: #075f63;
+    color:#FBF8EF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(7, 95, 99, 0.2);
+}
+
+.product-card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* About Us Section */
+.about-section {
+    background-color: #FBF8EF;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-title {
+    background-color: #075f63;
+    color: #FBF8EF;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.about-container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.about-box {
+    width:100%;
+    background-color: #075f63;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    color: #FBF8EF;
+    
+    /* max-width: 600px; */
+}
+
+.about-txt
+{
+    margin:2%;
+    padding:1%;
+    float: left;
+    width:60%;
+    line-height:2;
+    word-spacing: 5%;
+    
+}
+.about-box p {
+    text-align: justify;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: justify;
+    color: #075f63;
+    font-size: 18px;
+    line-height: 2;
+    word-spacing: 2%;
+}
+
+
+.about-image {
+    float:right;
+    width: 100%;
+    max-width: 30%; 
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.card-body p{
+    text-align: justify;
+}
+/* Footer */
+.footer {
+    background-color: #075f63;
+    color: #FBF8EF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #FBF8EF;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
